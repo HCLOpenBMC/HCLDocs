@@ -17,6 +17,7 @@ Update the BMC image using the below command.
 ```
 $ curl -k -H "X-Auth-Token: $token" -X POST -T <image_path> https://${bmc}/redfish/v1/UpdateService
 ```
+
     - OUTPUT:
       ```
       {
