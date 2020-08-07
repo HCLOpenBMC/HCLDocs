@@ -1,5 +1,5 @@
-## Tiogapass Host Power OFF
-Procedure to Power OFF host using redfish.
+## Tiogapass BMC Reboot
+Procedure to Reboot BMC using redfish.
 (Using CURL commands)
 
 ### STEP - 1
@@ -11,22 +11,22 @@ Procedure to Power OFF host using redfish.
     Establish Redfish connection session with BMC using the below command.
     ```
     $ export token=`curl -k -H "Content-Type: application/json" -X POST https://${bmc}/login -d '{"username" :  "root", "password" :  "0penBmc"}' | grep token | awk '{print $2;}' | tr -d '"'`
-    ```
+ ```
 ### STEP - 3
     ```
-    $ curl -k -H "X-Auth-Token: $token" -X POST https://${bmc}/redfish/v1/Systems/system/Actions/ComputerSystem.Reset -d '{"ResetType": "ForceOff"}'
+    $ curl -k -H "X-Auth-Token: $token" -X POST https://${bmc}/redfish/v1/Managers/bmc/Actions/Manager.Reset -d '{"ResetType": "GracefulRestart"}'
     ```
     - OUTPUT:
       ```
       "@Message.ExtendedInfo": [
-      {
-        "@odata.type": "#Message.v1_0_0.Message",
-        "Message": "Successfully Completed Request",
-        "MessageArgs": [],
-        "MessageId": "Base.1.4.0.Success",
-        "Resolution": "None",
-        "Severity": "OK"
-      }
-      ]
-      ```
+       {
+         "@odata.type": "#Message.v1_0_0.Message",
+         "Message": "Successfully Completed Request",
+         "MessageArgs": [],
+         "MessageId": "Base.1.4.0.Success",
+         "Resolution": "None",
+         "Severity": "OK"
+       }
+       ]
+       ```
 
