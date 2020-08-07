@@ -77,8 +77,5 @@ $ curl -k -H "X-Auth-Token: $token"  -X GET https://${bmc}/redfish/v1/Chassis/Ti
       "UpperThresholdCritical": 13.23
       }
       ]
-
-      
-      
-       ```
+      ```
 
