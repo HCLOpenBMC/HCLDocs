@@ -16,7 +16,7 @@ $ export token=`curl -k -H "Content-Type: application/json" -X POST https://${bm
 ```
 $ curl -k -H "X-Auth-Token: $token" -X POST https://${bmc}/redfish/v1/Systems/system/Actions/ComputerSystem.Reset -d '{"ResetType": "ForceOn"}'
 ```
-    - OUTPUT:
+   - OUTPUT:
       ```
       "@Message.ExtendedInfo": [
        {
