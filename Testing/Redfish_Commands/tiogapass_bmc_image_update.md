@@ -17,9 +17,8 @@ Update the BMC image using the below command.
 ```
 $ curl -k -H "X-Auth-Token: $token" -X POST -T <image_path> https://${bmc}/redfish/v1/UpdateService
 ```
-
-    - OUTPUT:
-       ```
+   - OUTPUT:
+      ```
        {
         "@odata.id": "/redfish/v1/TaskService/Tasks/0",
         "@odata.type": "#Task.v1_4_3.Task",
@@ -27,7 +26,7 @@ $ curl -k -H "X-Auth-Token: $token" -X POST -T <image_path> https://${bmc}/redfi
         "TaskState": "Running",
         "TaskStatus": "OK"
        }  
-       ```
+      ```
 ### STEP - 4
 Reboot the BMC.
 ```

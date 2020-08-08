@@ -18,8 +18,7 @@ $ curl -k -H "X-Auth-Token: $token"  -X GET https://${bmc}/redfish/v1/Chassis/Ti
 $ curl -k -H "X-Auth-Token: $token"  -X GET https://${bmc}/redfish/v1/Chassis/TiogaPass_Baseboard/Power
 $ curl -k -H "X-Auth-Token: $token"  -X GET https://${bmc}/redfish/v1/Chassis/TiogaPass_Baseboard/Thermal
 ```
-
-    - OUTPUT:
+   - OUTPUT:
       ```
       "@odata.id": "/redfish/v1/Chassis/TiogaPass_Baseboard/Thermal",
       "@odata.type": "#Thermal.v1_4_0.Thermal",
