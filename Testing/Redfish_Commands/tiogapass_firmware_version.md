@@ -19,7 +19,7 @@ $ curl -k -H "X-Auth-Token: $token" -X POST https://${bmc}/redfish/v1/UpdateServ
 ```
    - OUTPUT:
       ```
-       {
+      {
 	  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/a77348be",
 	  "@odata.type": "#SoftwareInventory.v1_1_0.SoftwareInventory",
 	  "Description": "BMC image",
@@ -38,7 +38,7 @@ $ curl -k -H "X-Auth-Token: $token" -X POST https://${bmc}/redfish/v1/UpdateServ
 	  },
 	  "Updateable": true,
 	  "Version": "2.9.0-dev-200-g8f3c9bb74"
-	}
+      }
       ```
 
 ### STEP - 4
@@ -48,7 +48,7 @@ $ curl -k -H "X-Auth-Token: $token" -X POST https://${bmc}/redfish/v1/UpdateServ
 ```
    - OUTPUT:
       ```
-       {
+      {
 	  "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/me",
 	  "@odata.type": "#SoftwareInventory.v1_1_0.SoftwareInventory",
 	  "Description": "ME image",
@@ -61,11 +61,5 @@ $ curl -k -H "X-Auth-Token: $token" -X POST https://${bmc}/redfish/v1/UpdateServ
 	  },
 	  "Updateable": false,
 	  "Version": "4.0.4.393.0"
-<<<<<<< HEAD
-       }
+      }
       ```
-=======
-	}
-      ```
-
->>>>>>> f2299ae67094363c65d44bfa86e74976ffe9b892
