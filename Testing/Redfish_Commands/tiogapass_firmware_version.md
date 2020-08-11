@@ -61,6 +61,5 @@ $ curl -k -H "X-Auth-Token: $token" -X POST https://${bmc}/redfish/v1/UpdateServ
 	  },
 	  "Updateable": false,
 	  "Version": "4.0.4.393.0"
-	}
-       ```
-
+       }
+      ```
