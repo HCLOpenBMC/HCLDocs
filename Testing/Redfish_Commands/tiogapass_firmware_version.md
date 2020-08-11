@@ -39,7 +39,7 @@ $ curl -k -H "X-Auth-Token: $token" -X POST https://${bmc}/redfish/v1/UpdateServ
 	  "Updateable": true,
 	  "Version": "2.9.0-dev-200-g8f3c9bb74"
 	}
-       ```
+      ```
 
 ### STEP - 4
 To read ME Version
@@ -61,5 +61,11 @@ $ curl -k -H "X-Auth-Token: $token" -X POST https://${bmc}/redfish/v1/UpdateServ
 	  },
 	  "Updateable": false,
 	  "Version": "4.0.4.393.0"
+<<<<<<< HEAD
        }
       ```
+=======
+	}
+      ```
+
+>>>>>>> f2299ae67094363c65d44bfa86e74976ffe9b892
