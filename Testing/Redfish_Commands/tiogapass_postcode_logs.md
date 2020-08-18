@@ -43,7 +43,7 @@ $ curl -k -H "X-Auth-Token: $token" -X GET https://${bmc}/redfish/v1/Systems/sys
 	    },
 	  ...
      	  ],
-	  "Members@odata.count": 16,
+	  "Members@odata.count": 1000,
 	  "Members@odata.nextLink": "/redfish/v1/Systems/system/LogServices/PostCodes/Entries?$skip=1000",
 	  "Name": "BIOS POST Code Log Entries"
       }
