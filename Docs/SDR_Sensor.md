@@ -1,6 +1,6 @@
-##IPMB BASED SDR SENSOR
+## IPMB BASED SDR SENSOR
 
-###INTRODUCTION
+### INTRODUCTION
 
 SDR is a data record that provides platform management sensor type,
 locations, event generation and access information.
@@ -10,12 +10,12 @@ number of sensors in the platform, sensor threshold support,
 event generation capabilities and information on what type
 of readings the sensor provides.
 
-###REQUIRED REPOSITORY
+### REQUIRED REPOSITORY
 
 1. dbus-sensors
 2. entity-manager
 
-###IMPLEMENTATION PROCESS
+### IMPLEMENTATION PROCESS
 
 Here, SDR of Type 1 records are implemented based on IPMB to read
 the sensor information from each bus which can be configured
