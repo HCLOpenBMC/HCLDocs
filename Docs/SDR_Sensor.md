@@ -19,7 +19,7 @@ of readings the sensor provides.
 
 Here, SDR of Type 1 records are implemented based on IPMB to read
 the sensor information from each bus which can be configured
-using IPMB FRU from the EM file.
+using IPMB FRU from the Entity-manager config file.
 
 - Sample Config :
    ```
@@ -49,3 +49,7 @@ count, dbus objects will be populated for each sensor. Finally, it
 will read the sensor value from sensor unique number and the values
 will be updated in dbus property.
 
+### GERRIT LINKS
+
+1. dbus-sensors   - https://gerrit.openbmc-project.xyz/c/openbmc/dbus-sensors/+/38905
+2. entity-manager - Not yet submitted
