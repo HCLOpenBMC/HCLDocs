@@ -12,6 +12,7 @@ all the host FRU details which is IPMB based interface.
 ### REQUIRED REPOSITORY
 
 1. entity-manager
+2. openbmc
 
 ### IMPLEMENTATION
 
@@ -67,3 +68,5 @@ will give the bus index for each IPMB channel.
                       https://gerrit.openbmc-project.xyz/c/openbmc/entity-manager/+/50894 
                       https://gerrit.openbmc-project.xyz/c/openbmc/entity-manager/+/50921 
                       https://gerrit.openbmc-project.xyz/c/openbmc/entity-manager/+/51555
+
+2. openbmc          - https://gerrit.openbmc-project.xyz/c/openbmc/meta-phosphor/+/37513
