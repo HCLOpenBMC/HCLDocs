@@ -81,5 +81,5 @@ The full json FBYV2.json is given in the below gerrit link.
 ### GERRIT LINKS
 
 1. entity-manager   - https://gerrit.openbmc-project.xyz/c/openbmc/entity-manager/+/27221 
-2. openbmc          - https://gerrit.openbmc-project.xyz/c/openbmc/meta-facebook/+/28192 <br />
+2. openbmc          - https://gerrit.openbmc-project.xyz/c/openbmc/meta-facebook/+/28192 <br/>
                       https://gerrit.openbmc-project.xyz/c/openbmc/meta-facebook/+/28211
