@@ -60,13 +60,13 @@ will give the bus index for each IPMB channel.
 
 ### GERRIT LINKS
 
-1. entity-manager   - https://gerrit.openbmc-project.xyz/c/openbmc/entity-manager/+/49418 
-                      https://gerrit.openbmc-project.xyz/c/openbmc/entity-manager/+/49205
-                      https://gerrit.openbmc-project.xyz/c/openbmc/entity-manager/+/49076
-                      https://gerrit.openbmc-project.xyz/c/openbmc/entity-manager/+/39592 
-                      https://gerrit.openbmc-project.xyz/c/openbmc/entity-manager/+/47246 
-                      https://gerrit.openbmc-project.xyz/c/openbmc/entity-manager/+/50894 
-                      https://gerrit.openbmc-project.xyz/c/openbmc/entity-manager/+/50921 
-                      https://gerrit.openbmc-project.xyz/c/openbmc/entity-manager/+/51555
+1. entity-manager   - https://gerrit.openbmc-project.xyz/c/openbmc/entity-manager/+/49418 <br/> 
+                      https://gerrit.openbmc-project.xyz/c/openbmc/entity-manager/+/49205 <br/>
+                      https://gerrit.openbmc-project.xyz/c/openbmc/entity-manager/+/49076 <br/>
+                      https://gerrit.openbmc-project.xyz/c/openbmc/entity-manager/+/39592 <br/>
+                      https://gerrit.openbmc-project.xyz/c/openbmc/entity-manager/+/47246 <br/> 
+                      https://gerrit.openbmc-project.xyz/c/openbmc/entity-manager/+/50894 <br/>
+                      https://gerrit.openbmc-project.xyz/c/openbmc/entity-manager/+/50921 <br/>
+                      https://gerrit.openbmc-project.xyz/c/openbmc/entity-manager/+/51555 <br/>
 
 2. openbmc          - https://gerrit.openbmc-project.xyz/c/openbmc/meta-phosphor/+/37513
