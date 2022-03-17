@@ -34,7 +34,7 @@ obmc-console works based on client and server based socket communication.This
 application enables the client and server socket communication for host console.
 Now, host console will be enabled and can logged into host console.
 
-Also, all the host console log can be stored in /var/log/obmc-console*.log paths.
+Also, all the host console log can be stored in /var/log/obmc-console[0-3].log paths.
 
 ### Gerrit Links
 
