@@ -1,6 +1,6 @@
-## ADDED OBMC-CONSOLE SUPPORT FOR YOSEMITEV2 MULTI-HOST PLATFORM
+## Added Obmc-console Support For Yosemitev2 Multi-host Platform
 
-### INTRODUCTION
+### Introduction
 
 The obmc-console and obmc-console log support added for Facebook yosemiteV2
 multi-host platform.
@@ -8,11 +8,11 @@ multi-host platform.
 The server and client configurations files were added in openbmc meta-facebook
 repo to add obmc-console and obmc-console log support in YosemiteV2 platform.
 
-### REQUIRED REPOSITORY
+### Required Repository
 
 1. openbmc
 
-### IMPLEMENTATION
+### Implementation
 
 The obmc-console and obmc-console log support added for YosemiteV2 platform.
 
@@ -36,7 +36,7 @@ Now, host console will be enabled and can logged into host console.
 
 Also, all the host console log can be stored in /var/log/obmc-console*.log paths.
 
-### GERRIT LINKS
+### Gerrit Links
 
 1. openbmc          - https://gerrit.openbmc-project.xyz/c/openbmc/meta-facebook/+/31318 <br/>
                       https://gerrit.openbmc-project.xyz/c/openbmc/meta-facebook/+/32182

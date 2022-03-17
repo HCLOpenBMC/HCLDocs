@@ -1,6 +1,6 @@
-## IPMB BASED MULTI-HOST FRU READ/WRITE PROCESS
+## Ipmb Based Multi-host Fru Read/Write Process
 
-### INTRODUCTION
+### Introduction
 
 IPMB based host FRU has host board, chassis and product information.These
 information follows standard IPMI format.
@@ -9,12 +9,12 @@ In Entity Manager, new daemon 'ipmb-fru-device' which is similar to
 'fru-device' daemon would scan ipmb buses of all the hosts and read and write
 all the host FRU details which is IPMB based interface.
 
-### REQUIRED REPOSITORY
+### Required Repository
 
 1. entity-manager
 2. openbmc
 
-### IMPLEMENTATION
+### Implementation
 
 The new "ipmb-fru-device" deamon is created for handling to read/write the FRU
 details of all the hosts using ipmb interfaces. This deamon reads the ipmb
@@ -58,7 +58,7 @@ This configuration is based on the "xyz.openbmc_project.Ipmb.FruDevice"
 service, which will read FRU information from each IPMB bus. "$bus"
 will give the bus index for each IPMB channel.
 
-### GERRIT LINKS
+### Gerrit Links
 
 1. entity-manager   - https://gerrit.openbmc-project.xyz/c/openbmc/entity-manager/+/49418 <br/> 
                       https://gerrit.openbmc-project.xyz/c/openbmc/entity-manager/+/49205 <br/>
