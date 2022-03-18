@@ -17,7 +17,7 @@ handling for multi-host system.
 
 ### Implementation
 
-Plesae refer the below gerrit link for this design and implementation of this feature.
+Please refer the below gerrit link for this design and implementation of this feature.
 https://gerrit.openbmc-project.xyz/c/openbmc/docs/+/34464 
 
 ### Gerrit Links
