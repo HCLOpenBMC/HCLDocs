@@ -26,7 +26,7 @@ for all four hosts.
    The content of this critical sensor frame contains all pre-defined BMC critical
    sensors.
 
-###REQUIRED REPOSITORY
+##REQUIRED REPOSITORY
 
 1. fb-ipmi-oem
 
@@ -46,5 +46,6 @@ to the OCP Debug-Card.
 
 ### GERRIT LINKS
 
-1.fb-ipmi-oem - https://gerrit.openbmc-project.xyz/c/openbmc/fb-ipmi-oem/+/50439
-              - https://gerrit.openbmc-project.xyz/c/openbmc/fb-ipmi-oem/+/50440
+ fb-ipmi-oem 
+ 1. https://gerrit.openbmc-project.xyz/c/openbmc/fb-ipmi-oem/+/50439
+ 2. https://gerrit.openbmc-project.xyz/c/openbmc/fb-ipmi-oem/+/50440
