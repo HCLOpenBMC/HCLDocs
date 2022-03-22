@@ -26,7 +26,7 @@ for all four hosts.
    The content of this critical sensor frame contains all pre-defined BMC critical
    sensors.
 
-##REQUIRED REPOSITORY
+### REQUIRED REPOSITORY
 
 1. fb-ipmi-oem
 
